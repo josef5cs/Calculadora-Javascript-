@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora José Raimundo</title>
+        <link rel="stylesheet" href="calculadora.css">
+    </head>
+    <body>
+        <marquee id="assinatura">Created by José Raimundo Pereira Junior(josef5cs)</marquee>
+        <main id="corpo">
+            <section id="tela">
+                <div id="operacao">
+                    <input maxlength="20" disabled id="numero1">
+                    <input disabled id="sinal">
+                    <input disabled id="numero2">
+                </div>      
+                <div id="resultado">
+                    <input disabled id="resultadoTotal">
+                </div>                       
+            </section>
+            <section id="botoes">
+                <button onclick="limp()" id="limpar">C</button>
+                <button onclick="delet()" id="deletar">Del</button>
+                <button onclick="porc()" id="porcentagem">%</button>
+                <button onclick="divi()" id="divisao">÷</button>
+                <button onclick="digitar7()" id="sete">7</button>
+                <button onclick="digitar8()" id="oito">8</button>
+                <button onclick="digitar9()" id="nove">9</button>
+                <button onclick="mult()" id="multiplicacao">x</button>
+                <button onclick="digitar4()" id="quatro">4</button>
+                <button onclick="digitar5()" id="cinco">5</button>
+                <button onclick="digitar6()" id="seis">6</button>
+                <button onclick="sub()" id="subtracao">-</button>
+                <button onclick="digitar1()" id="um">1</button>
+                <button onclick="digitar2()" id="dois">2</button>
+                <button onclick="digitar3()" id="tres">3</button>
+                <button onclick="add()" id="adicao">+</button>
+                <button id="assign">Josef5cs</button>
+                <button onclick="digitar0()" id="zero">0</button>
+                <button onclick="pontO()" id="ponto">.</button>
+                <button onclick="iguaL()" id="igual">=</button>
+            </section>
+        </main>        
+        <script src="calculadora.js"></script>
+    </body>
+</html>

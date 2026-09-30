@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+body{
+    background: black;
+    color:rgb(255, 0, 212);
+}
+#assinatura{
+    width: 300px;
+    height:20px;
+    font-weight: 900;
+}
+#corpo{
+    margin-top:-20px;
+}
+main{
+    border: 2px solid rgb(85, 0, 85);
+    border-radius: 10px;
+    width: 35dvw;
+    height: 95dvh;
+    margin: auto auto;
+    box-shadow: 5px 5px 25px rgb(85, 0, 85);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+#tela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    width: 34.8dvw;
+    height: 40dvh;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: auto auto;
+}
+#botoes{
+    width: 35dvw;
+    height: 60dvh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row wrap;
+}
+#operacao{
+    background: rgb(0, 0, 0);
+    width: 34.5dvw;
+    height: 20dvh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 10px;
+    margin: auto auto;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+#numero1{
+    text-align:end;
+    border: 1px solid rgb(0, 0, 0);
+    background: black;
+    width: 33dvw;
+    height: 7dvh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 10px;
+    font-family: "Black Ops One", system-ui;
+    font-weight:100;
+    font-style: normal;
+    font-size: 30px;
+    color: rgb(139, 0, 116);
+    margin: auto auto;
+}
+
+#numero2{
+    text-align:end;
+    border: 1px solid rgb(0, 0, 0);
+    background: black;
+    width: 33dvw;
+    height: 7dvh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 10px;
+    font-family: "Black Ops One", system-ui;
+    font-weight:100;
+    font-style: normal;
+    font-size: 30px;
+    color: rgb(139, 0, 116);
+    margin: auto auto;
+}
+#sinal{
+    text-align:end;
+    border: 1px solid rgb(0, 0, 0);
+    background: black;
+    width: 33dvw;
+    height: 7dvh;
+    margin-right: 10px;
+    font-family: "Black Ops One", system-ui;
+    font-weight:100;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(139, 0, 116);
+    margin: auto auto;
+}
+#resultado{
+    width: 34.5dvw;
+    height: 20dvh;
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+    align-items: center;
+    font-size: 30px;
+    border: 1px solid rgb(0, 0, 0);
+}
+#resultadoTotal{
+    width: 33dvw;
+    height: 10dvh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 30px;
+    background: black;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: end;
+    color: rgb(228, 0, 228);
+    font-weight: 900;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#assign{
+    font-style: mono;
+    font-family: "Parisienne", cursive;
+    font-weight: 900;
+    font-style: normal;
+    color: rgb(0, 255, 221)
+}
