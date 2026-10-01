@@ -134,6 +134,7 @@ main{
 button{
     width: 25%;
     height: 20%;
+    border: 1px solid black;
     border-radius: 50%;
     background-color: rgb(53, 53, 53);
     color: white;
