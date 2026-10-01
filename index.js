@@ -285,31 +285,28 @@ const porc = () => {
     if(document.getElementById("sinal").value==false){
         document.getElementById("sinal").value="%"
     }else if(document.getElementById("sinal").value=="+"){
-        document.getElementById("resultadoTotal").value = Number(document.getElementById("numero1").value) + Number(document.getElementById("numero2").value);
+        document.getElementById("resultadoTotal").value = Number(document.getElementById("numero1").value) + Number(document.getElementById("numero1").value)*(Number(document.getElementById("numero2").value)/100);
         document.getElementById("numero1").value = document.getElementById("resultadoTotal").value
-        document.getElementById("numero2").value = "";
-        return document.getElementById("sinal").value = "%";
+        return document.getElementById("numero2").value = "";
     }else if(document.getElementById("sinal").value=="-"){
-        document.getElementById("resultadoTotal").value = Number(document.getElementById("numero1").value) - Number(document.getElementById("numero2").value);
+        document.getElementById("resultadoTotal").value = Number(document.getElementById("numero1").value) - Number(document.getElementById("numero1").value)*(Number(document.getElementById("numero2").value)/100);
         document.getElementById("numero1").value = document.getElementById("resultadoTotal").value
-        document.getElementById("numero2").value = "";
-        return document.getElementById("sinal").value = "%";
+        return document.getElementById("numero2").value = "";
     }else if(document.getElementById("sinal").value=="÷"){
-        document.getElementById("resultadoTotal").value = Number(document.getElementById("numero1").value) / Number(document.getElementById("numero2").value);
+        document.getElementById("resultadoTotal").value = Number(document.getElementById("numero1").value) / Number(document.getElementById("numero1").value)*(Number(document.getElementById("numero2").value)/100);
         document.getElementById("numero1").value = document.getElementById("resultadoTotal").value
-        document.getElementById("numero2").value = "";
-        return document.getElementById("sinal").value = "%";
+        return document.getElementById("numero2").value = "";
     }else if(document.getElementById("sinal").value=="x"){
-        document.getElementById("resultadoTotal").value = Number(document.getElementById("numero1").value) * Number(document.getElementById("numero2").value);
+        document.getElementById("resultadoTotal").value = Number(document.getElementById("numero1").value) * Number(document.getElementById("numero1").value)*(Number(document.getElementById("numero2").value)/100);
         document.getElementById("numero1").value = document.getElementById("resultadoTotal").value
-        document.getElementById("numero2").value = "";
-        return document.getElementById("sinal").value = "%";
+        return document.getElementById("numero2").value = "";
     }else if(document.getElementById("sinal").value=="%"){
         document.getElementById("resultadoTotal").value = (Number(document.getElementById("numero1").value)/100) * Number(document.getElementById("numero2").value);
         document.getElementById("numero1").value = document.getElementById("resultadoTotal").value
         document.getElementById("numero2").value = "";
         return document.getElementById("sinal").value = "%";
-    }       
+    }
+   
 }
 
 
