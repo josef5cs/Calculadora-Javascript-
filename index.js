@@ -10,6 +10,15 @@ const limp = () => {
     document.getElementById("sinal").value="";
     document.getElementById("numero2").value="";
     document.getElementById("resultadoTotal").value="";
+    document.getElementById("limpar").style.background="black"
+    document.getElementById("limpar").style.boxShadow="2px 2px 10px rgb(242, 0, 250)"
+    document.getElementById("limpar").style.color="rgb(242, 0, 250)"
+}
+const limp1 = () => { 
+    document.getElementById("limpar").style.background="rgb(53, 53, 53)"
+    document.getElementById("limpar").style.boxShadow=""
+    document.getElementById("limpar").style.color="rgb(255, 255, 255)"
+    
 }
 
 const delet = () => {
@@ -43,6 +52,7 @@ const pontO = () => {
 //Números
 const digitar9 = () => {
     if(document.getElementById("sinal").value==false){
+
         const c1 = document.getElementById("numero1").value;
         const c2 = 9
         document.getElementById("numero1").value=c1+c2;        
